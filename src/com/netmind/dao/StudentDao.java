@@ -9,18 +9,13 @@ public class StudentDao {
 	static ArrayList<Student> list = new ArrayList<>();
 
 	public boolean add(Student student) {
-
 		list.add(student);
-		System.out.println("Estudiante añadido correctamente \n");
+		System.out.println("Estudiante aÃ±adido correctamente \n");
 
 		return true;
-
 	}
 
 	public void list() {
-
 		System.out.println(list + "\n");
-
 	}
-
 }
